@@ -72,7 +72,7 @@ func boss(e chan writeE) {
 	for {
 		time.Sleep(op.BossSleep)
 		rand.Seed(time.Now().UTC().UnixNano())
-		task := Task{op.Operations[rand.Intn(2)], rand.Intn(100), rand.Intn(100)} //(rand.Float64() * 100) + 100, (rand.Float64() * 100) + 100}
+		task := Task{op.Operations[rand.Intn(3)], rand.Intn(100), rand.Intn(100)} //(rand.Float64() * 100) + 100, (rand.Float64() * 100) + 100}
 
 		if !op.Silent {
 			fmt.Println("BOSS TASK: ", task)
