@@ -1,0 +1,10 @@
+package conf
+
+type Operation int
+
+const (
+	Add Opreation = 0
+	Mul Operation = 1
+	Sub Operation = 2
+	Div Operation = 3
+)
