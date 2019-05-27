@@ -1,0 +1,213 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_PROTECTED_TYPE_ALLOCATORS
+RV NO_PROTECTED_TYPES
+RV NO_RELATIVE_DELAY
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_PROTECTED_ENTRIES=2
+
+U machines%b		machines.adb		02ef96d7 NE OO PK
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U machines%s		machines.ads		f44c006b EE OO PF PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W conf%s		conf.ads		conf.ali
+W servs%s		servs.adb		servs.ali
+W system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20190417081233 76789da1 ada%s
+D a-calend.ads		20190417081233 2d5f01d4 ada.calendar%s
+D a-caldel.ads		20190417081233 9f20b83d ada.calendar.delays%s
+D a-contai.ads		20190417081233 61e5e089 ada.containers%s
+D a-cdlili.ads		20190417081233 8e06b4f2 ada.containers.doubly_linked_lists%s
+D a-conhel.ads		20190417081233 20298884 ada.containers.helpers%s
+D a-except.ads		20190417081233 291912d5 ada.exceptions%s
+D a-finali.ads		20190417081233 bf4f806b ada.finalization%s
+D a-ioexce.ads		20190417081233 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20190417081233 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20190417081233 bb51c45a ada.numerics%s
+D a-nudira.ads		20190417081233 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20190417081233 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20190417081233 119b8fb3 ada.streams%s
+D a-tags.ads		20190417081233 491b781d ada.tags%s
+D a-textio.ads		20190417081233 881db35a ada.text_io%s
+D a-unccon.ads		20190417081233 0e9b276f ada.unchecked_conversion%s
+D conf.ads		20190518084622 7336cba8 conf%s
+D interfac.ads		20190417081233 5ab55268 interfaces%s
+D i-c.ads		20190417081233 5421119b interfaces.c%s
+D i-cstrea.ads		20190417081233 e53d8b8e interfaces.c_streams%s
+D machines.ads		20190518081225 e5d0575d machines%s
+D machines.adb		20190518081336 e73fc18a machines%b
+D servs.ads		20190516165655 567b2bd0 servs%s
+D system.ads		20190417081233 4635ec04 system%s
+D s-atacco.ads		20190417081233 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20190417081233 b45c2d8d system.atomic_counters%s
+D s-conca3.ads		20190417081233 0b705ca5 system.concat_3%s
+D s-crtl.ads		20190417081233 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190417081233 54135002 system.exception_table%s
+D s-ficobl.ads		20190417081233 078245e4 system.file_control_block%s
+D s-finmas.ads		20190417081233 7811a767 system.finalization_masters%s
+D s-finroo.ads		20190417081233 4ff27390 system.finalization_root%s
+D s-imgint.ads		20190417081233 02dbe0c2 system.img_int%s
+D s-imguns.ads		20190417081233 9ff43cf7 system.img_uns%s
+D s-linux.ads		20190417081233 2fda6ad1 system.linux%s
+D s-memory.ads		20190417081233 597d6634 system.memory%s
+D s-multip.ads		20190417081233 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20190417081233 2a880dab system.os_constants%s
+D s-osinte.ads		20190417081233 c6986a0c system.os_interface%s
+D s-parame.ads		20190417081233 f896c45c system.parameters%s
+D s-pooglo.ads		20190417081233 ede33ef8 system.pool_global%s
+D s-rannum.ads		20190417081233 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20190417081233 20ba1217 system.random_numbers%b
+D s-ransee.ads		20190417081233 01a57b33 system.random_seed%s
+D s-secsta.ads		20190417081233 283dec34 system.secondary_stack%s
+D s-soflin.ads		20190417081233 a7318a92 system.soft_links%s
+D s-stache.ads		20190417081233 a37c21ec system.stack_checking%s
+D s-stausa.ads		20190417081233 017a0a05 system.stack_usage%s
+D s-stalib.ads		20190417081233 09bd3940 system.standard_library%s
+D s-stalib.adb		20190417081233 f2fe2716 system.standard_library%b
+D s-stoele.ads		20190417081233 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20190417081233 b16154c2 system.storage_pools%s
+D s-stposu.ads		20190417081233 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20190417081233 aedef97e system.stream_attributes%s
+D s-tasinf.ads		20190417081233 2b3f8252 system.task_info%s
+D s-taspri.ads		20190417081233 f40ac08d system.task_primitives%s
+D s-taskin.ads		20190417081233 1d8c1ccb system.tasking%s
+D s-taprob.ads		20190417081233 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20190417081233 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20190417081233 5f548bb3 system.tasking.protected_objects.operations%s
+D s-traent.ads		20190417081233 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190417081233 34867c83 system.unsigned_types%s
+D s-valuns.ads		20190417081233 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20190417081233 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 22|2r6 3w6 3r15 4r6 5r6 11r30 23|44r19 89r19
+X 10 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[5|69]>
+X 11 a-numeri.ads
+16K13*Numerics 32e17 22|4w10 5r10 11r34
+X 12 a-nudira.ads
+44k22*Discrete_Random 75e33 22|5w19 11r43
+50R9*Generator<43|63R9> 22|24r28[11] 39r28[11]
+52V13*Random{integer} 23|39s29[22|11] 84s29[22|11]
+55U14*Reset<43|100p14> 23|38s36[22|11] 83s36[22|11]
+X 13 a-nudira.adb
+53V16 Random[43|83]{integer} 44|392b13[22|11]
+X 16 a-textio.ads
+49K13*Text_IO 471e16 22|2w10 23|44r23 89r23
+263U14*Put_Line 23|44s31 89s31
+X 18 conf.ads
+1K9*Conf 29e10 22|6w6 47r34 49r34 23|28r24 40r20 43r23 76r24 85r20 88r23
+3b4*Silent{boolean} 23|43r28 88r28
+12i4*No_AddMachines{integer} 22|47r39
+13i4*No_MulMachines{integer} 22|49r39
+21o4*AddMachineSleep{duration} 23|28r29
+22o4*MulMachineSleep{duration} 23|76r29
+24i4*AddMachineReliability{integer} 23|40r25 85r25
+X 19 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 22 machines.ads
+8K9*Machines 54l5 54e13 23|1b14 96l5 96t13
+10I12*range100Machines{integer} 11r59 25r22 40r22
+11K12*Rand_Int_M[12|44] 12r8 24r17 39r17 23|38r25 39r18 83r25 84r18
+14W19*AddMachine 21E11 27l8 27e18 44r34 52r58 23|3b19 49l8 49t18
+15Y17 Compute 15>25 23|25b17 48l22 48t29
+15p25 Ex{24|13P9} 23|31r25 33r25 33r41 34r40 34r50 35r40 35r50
+16U21 SetId 16>27 23|4b21 7l15 7t20
+16i27 identity{integer} 23|4b27 6r16
+17Y17 Backdoor 23|9b17 13l15 13t23
+18V20 GetCollisions{integer} 23|15b20 18l15 18t28
+19V20 isBroken{boolean} 23|20b20 23l15 23t23
+21i11 Id{integer} 23|6r10 44r72
+22b11 Broken{boolean} 23|12r10 22r17 30r21 41r16
+23i11 Collisions{integer} 23|17r17 42r16 42r30
+24r11 gen{12|50R9[11]} 23|38r42 39r36
+25i11 sensitive{10I12}
+26i11 R{integer} 23|39r13 40r16
+29W19*MulMachine 36E11 42l8 42e18 45r34 53r58 23|51b19 94l8 94t18
+30Y17 Compute 30>25 23|73b17 93l16 93t23
+30p25 Ex{24|13P9} 23|79r25 81r25 81r35 81r45
+31U21 SetId 31>27 23|52b21 55l15 55t20
+31i27 identity{integer} 23|52b27 54r16
+32Y17 Backdoor 23|57b17 61l15 61t23
+33V20 GetCollisions{integer} 23|63b20 66l15 66t28
+34V20 isBroken{boolean} 23|68b20 71l15 71t23
+36i11 Id{integer} 23|54r10 89r72
+37b11 Broken{boolean} 23|60r10 70r17 78r21 86r16
+38i11 Collisions{integer} 23|65r17 87r16 87r30
+39r11 gen{12|50R9[11]} 23|83r42 84r36
+40i11 sensitive{10I12}
+41i11 R{integer} 23|84r13 85r16
+44P9*AddMachine_Acc(14W19) 47r58
+45P9*MulMachine_Acc(29W19) 49r58
+47A9*AddMachines(44P9)<integer> 48r39 52r28
+48P9*AddMachines_Acc(47A9)
+49A9*MulMachines(45P9)<integer> 50r39 53r28
+50P9*MulMachines_Acc(49A9)
+52a4*AddMachinesArr{47A9}
+53a4*MulMachinesArr{49A9}
+X 23 machines.adb
+25p25 Ex{24|13P9}
+73p25 Ex{24|13P9}
+X 24 servs.ads
+5K9*Servs 22|1w6 1r17 24|37e10
+7e10*Operation{character} 23|33r44
+8i10*Arg1{integer} 23|34r43 35r43 81r38
+9i10*Arg2{integer} 23|34r53 35r53 81r48
+10i10*Res{integer} 23|31m28 33m28 79m28 81m28
+13P9*Ex_Acc(6R9) 22|15r33 30r33 23|25r33 73r33
+X 25 system.ads
+67M9*Address
+X 37 s-memory.ads
+53V13*Alloc{25|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{25|67M9} 105i<c,__gnat_realloc>22
+X 43 s-rannum.ads
+75V13*Random{19|74M9} 44|221i21
+76V13*Random{19|77M9} 44|221i21
+X 49 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 51 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+

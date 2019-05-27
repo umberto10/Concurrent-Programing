@@ -1,0 +1,33 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+
+U conf%s		conf.ads		7336cba8 NE OO PK
+
+D conf.ads		20190518084622 7336cba8 conf%s
+D system.ads		20190417081233 4635ec04 system%s
+X 1 conf.ads
+1K9*Conf 29l6 29e10
+3b4*Silent{boolean}
+5i4*SizeM{integer}
+6i4*SizeE{integer}
+8i4*ServiceWorkers{integer}
+9i4*Workers{integer}
+10i4*Customers{integer}
+12i4*No_AddMachines{integer}
+13i4*No_MulMachines{integer}
+15o4*delayedPatience{duration}
+16o4*ServiceWorker_Delay{duration}
+18f4*BossSleep{float}
+19f4*CustomerSleep{float}
+20o4*WorkerDelay{duration}
+21o4*AddMachineSleep{duration}
+22o4*MulMachineSleep{duration}
+24i4*AddMachineReliability{integer}
+25i4*MulMachineReliability{integer}
+27i4*ADD_MACHINE{integer}
+28i4*MUL_MACHINE{integer}
+
